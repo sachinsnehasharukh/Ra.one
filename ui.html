@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body >
+    <h2 style="margin-left: 100px;color: blue;font-size: 90px;"><i><b><center>RA.One</center></b></i></h2>
+    
+    <div class="container" >
+        <audio src="musics/1.mp3"></audio>
+        
+        
+        <div class="button">
+            <a href="option.html"  >
+                <TouchableOpacity>Option</TouchableOpacity>
+            </a>
+          
+            
+        </div>
+        <div class="button2">
+            <a href="play.html">
+                <i id="btn1"><TouchableOpacity herf="play.html" >PLAY</TouchableOpacity></i>
+            </a>
+            
+            
+        </div>
+        <div class="button3">
+            <TouchableOpacity>hint</TouchableOpacity>
+            
+        </div>
+        
+    </div>
+    <script>
+       const btn = document.getElementById("btn1")
+       const music = document.getElementById("audio")
+       
+       btn.addEventListener("click",()=>{
+        music.play()
+       })
+</script>
+
+    </script>    
+</body>
+</html>
